@@ -7,13 +7,14 @@ namespace THermostatEventsApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" ==> Start App <==");
-            Console.WriteLine("Press Any key to start device...");
+            Console.WriteLine("Press any key to start device...");
             Console.ReadKey();
             
             IDevice device = new Device();
             
-            device.runDevice();
+            device.RunDevice();
+            
+            Console.ReadKey();
 
         }
         

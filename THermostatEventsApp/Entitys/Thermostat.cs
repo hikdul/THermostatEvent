@@ -7,8 +7,6 @@ namespace THermostatEventsApp.Entitys
         private ICoolingMechanism _coolingMechanism = null;
         private IHeatSensor _heatSensor = null;
         private IDevice _device = null;
-        private const double WarningLevel = 27;
-        private const double EmergencyLevel = 75;
         
         public Thermostat(IDevice device, IHeatSensor heatSensor, ICoolingMechanism coolingMechanism)
         {
@@ -20,7 +18,7 @@ namespace THermostatEventsApp.Entitys
         private void WireUpEventsToEventHandlers()
         {
             _heatSensor.TemperatureReachesWarningLevelEventHandler += HeatSensor_TemperatureReachesWarningLevelEventHandler;
-            _heatSensor.TemperatureFallsBolowWarningLevelEventHandler += HeatSensor_TemperatureFallsBelowWarningLevelEventHandler;
+            _heatSensor.TemperatureFallsBelowWarningLevelEventHandler += HeatSensor_TemperatureFallsBelowWarningLevelEventHandler;
             _heatSensor.TemperatureReachesEmergencyLevelEventHandler += HeatSensor_TemperatureReachesEmergencyLevelEventHandler;
         }
         
@@ -45,7 +43,7 @@ namespace THermostatEventsApp.Entitys
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine();
             Console.WriteLine($"Emergency Alert!! (Emergency Level is {_device.EmergencyTemperatureLevel}°C or above).");
-            _device.HanleEmergency();
+            _device.HandleEmergency();
             Console.ResetColor();
         }
 
@@ -53,7 +51,8 @@ namespace THermostatEventsApp.Entitys
         {
             Console.WriteLine("thermostat is running...");
             WireUpEventsToEventHandlers();
-            _heatSensor.RunHeadSensor();
+            _heatSensor.RunHeatSensor();
         }
     }
 }
+

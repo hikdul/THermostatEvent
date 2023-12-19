@@ -6,7 +6,8 @@ namespace THermostatEventsApp.Helpers
     {
         event EventHandler<TemperatureEventArgs> TemperatureReachesEmergencyLevelEventHandler;
         event EventHandler<TemperatureEventArgs> TemperatureReachesWarningLevelEventHandler;
-        event EventHandler<TemperatureEventArgs> TemperatureFallsBolowWarningLevelEventHandler;
-        void RunHeadSensor();
+        event EventHandler<TemperatureEventArgs> TemperatureFallsBelowWarningLevelEventHandler;
+
+        void RunHeatSensor();
     }
 }

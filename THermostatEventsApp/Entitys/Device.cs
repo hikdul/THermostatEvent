@@ -4,32 +4,35 @@ namespace THermostatEventsApp.Entitys
 {
     public class Device : IDevice
     {
-        const double WARNING_LEVEL = 27;
-        const double EMERGENCY_LEVEL = 75;
+        const double Warning_Level = 27;
+        const double Emergency_Level = 75;
 
-        public double WarningTemperatureLevel => WARNING_LEVEL;
+        public double WarningTemperatureLevel => Warning_Level;
 
-        public double EmergencyTemperatureLevel => EMERGENCY_LEVEL;
+        public double EmergencyTemperatureLevel => Emergency_Level;
 
-        public void HanleEmergency()
+        public void HandleEmergency()
         {
             Console.WriteLine();
             Console.WriteLine("Sending out notifications to emergency services personal...");
-            shutDownDevice();
+            ShutDownDevice();
             Console.WriteLine();
         }
-        
-        public void runDevice()
+
+        public void RunDevice()
         {
-            Console.WriteLine("Device is rinnig...");
+            Console.WriteLine("Device is running...");
+
             ICoolingMechanism coolingMechanism = new CoolingMechanism();
-            IHeatSensor heatSensor = new HeatSenson(WARNING_LEVEL, EMERGENCY_LEVEL);
-            IThermostat thermostat = new Thermostat(this,heatSensor,coolingMechanism);
+            IHeatSensor heatSensor = new HeatSenson(Warning_Level, Emergency_Level);
+            IThermostat thermostat = new Thermostat(this, heatSensor, coolingMechanism);
+
+            thermostat.RunThermostat();
         }
-        
-        private void shutDownDevice()
+
+        private void ShutDownDevice()
         {
-            Console.WriteLine("Shuting now this device");
+            Console.WriteLine("Shutting down device...");
         }
     }
 }

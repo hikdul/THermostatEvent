@@ -2,9 +2,9 @@ namespace THermostatEventsApp.Helpers
 {
     public interface IDevice
     {
-        double WarningTemperatureLevel {get;}
-        double EmergencyTemperatureLevel {get;}
-        void runDevice();
-        void HanleEmergency();
+        double WarningTemperatureLevel { get; }
+        double EmergencyTemperatureLevel { get; }
+        void RunDevice();
+        void HandleEmergency();
     }
 }

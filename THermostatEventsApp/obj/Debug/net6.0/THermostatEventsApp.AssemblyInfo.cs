@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("THermostatEventsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+585257a7e50937e79104ffe01963c6d957f02ea1")]
 [assembly: System.Reflection.AssemblyProductAttribute("THermostatEventsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("THermostatEventsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
