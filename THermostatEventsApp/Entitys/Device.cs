@@ -24,6 +24,7 @@ namespace THermostatEventsApp.Entitys
             Console.WriteLine("Device is rinnig...");
             ICoolingMechanism coolingMechanism = new CoolingMechanism();
             IHeatSensor heatSensor = new HeatSenson(WARNING_LEVEL, EMERGENCY_LEVEL);
+            IThermostat thermostat = new Thermostat(this,heatSensor,coolingMechanism);
         }
         
         private void shutDownDevice()
