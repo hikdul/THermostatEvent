@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/kssknk9BAVXfDgQHklrSshJReB0vqjDMQexYYbjT5fVurDdw4UblPqTF/Eq7HtnAszafPaDx8LCJQjFZO5pnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hikdu\\Workspace\\THermostatEventsApp\\THermostatEventsApp\\THermostatEventsApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hikdu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\hikdu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\hikdu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\hikdu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

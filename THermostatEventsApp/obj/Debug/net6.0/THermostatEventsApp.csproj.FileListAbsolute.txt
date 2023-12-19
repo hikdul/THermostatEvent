@@ -1,0 +1,14 @@
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\bin\Debug\net6.0\THermostatEventsApp.exe
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\bin\Debug\net6.0\THermostatEventsApp.deps.json
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\bin\Debug\net6.0\THermostatEventsApp.runtimeconfig.json
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\bin\Debug\net6.0\THermostatEventsApp.dll
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\bin\Debug\net6.0\THermostatEventsApp.pdb
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\obj\Debug\net6.0\THermostatEventsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\obj\Debug\net6.0\THermostatEventsApp.AssemblyInfoInputs.cache
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\obj\Debug\net6.0\THermostatEventsApp.AssemblyInfo.cs
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\obj\Debug\net6.0\THermostatEventsApp.csproj.CoreCompileInputs.cache
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\obj\Debug\net6.0\THermostatEventsApp.dll
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\obj\Debug\net6.0\refint\THermostatEventsApp.dll
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\obj\Debug\net6.0\THermostatEventsApp.pdb
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\obj\Debug\net6.0\THermostatEventsApp.genruntimeconfig.cache
+C:\Users\hikdu\Workspace\THermostatEventsApp\THermostatEventsApp\obj\Debug\net6.0\ref\THermostatEventsApp.dll
